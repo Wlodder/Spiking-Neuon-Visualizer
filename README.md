@@ -1,5 +1,5 @@
-# Spiking-Neuon-Visualizer
-A Leaky integrate and Fire spiking neuron visualizer on an FPGA(ICE40) 
+# Spiking-Neuron-Visualizer
+A Leaky integrate and Fire spiking neuron visualizer on an FPGA (ICE40HX1K) 
 
 Check configuration files for extra details.
 
