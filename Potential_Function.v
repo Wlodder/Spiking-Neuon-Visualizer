@@ -20,7 +20,7 @@ begin
         end
         else
         begin
-            o_PSP_Trace <= o_PSP_Trace + ((i_Spike_Received) ? ((o_PSP_Trace >> 5) ? (o_PSP_Trace >> 5) : 1) : -(o_PSP_Trace >> 4));
+            o_PSP_Trace <= o_PSP_Trace + ((i_Spike_Received) ? ((10 - (o_PSP_Trace >> 5)) ? ((10 - (o_PSP_Trace >> 5)) : 1) : -(o_PSP_Trace >> 4));
             r_STATE <= FREE;
         end
     end
